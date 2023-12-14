@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваша аптека</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header" style="position: relative;">
+        <div class="container">
+          <div class="navbar">
+            <div class="logo">
+              <a href="index.html">
+               <img src="\pics\free-icon-medicine-965304.png" alt="main" style="width: 50px; height:50px; transition: 1s;">
+    
+              </a>
+            </div>
+            <div class="nav-main">
+              <a href="main.html">Главная</a>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                <img src="pics/category.svg" alt="" class="dropbtn-img">
+                <span class="dropbtn__text">Каталог</span>
+              </button>
+              <div class="dropdown-content">
+                <a href="search.html"><img src="pics/drop.svg" alt="" class="dropdown-content-img">Гигиена</a>
+                <a href="search.html"><img src="pics/nutrient.svg" alt="" class="dropdown-content-img">Биологические активные добавки</a>
+                <a href="search.html"><img src="pics/medicine.svg" alt="" class="dropdown-content-img">Лекарственные средства</a>
+                <a href="search.html"><img src="pics/baby.svg" alt="" class="dropdown-content-img">Мама и малыш</a>
+                <a href="search.html"><img src="pics/cosmetics.svg" alt="" class="dropdown-content-img">Лечебная косметика</a>
+                <a href="search.html"><img src="pics/blood-pressure.svg" alt="" class="dropdown-content-img">Медицинская техника</a>
+              </div>
+            </div>
+    
+            <div class="search-container">
+              <form class="search__form">
+                <input type="text" placeholder="Введите название товара, заболевания или симптома...">
+                <button type="submit"><img src="/pics/magnifier.svg" alt="поиск" class="magnifier"></button>
+              </form>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="search__by_image">
+            <img src="pics/Body.svg" alt="" class="search_image" usemap="#problems">
+<!--https://www.w3schools.com/html/html_images_imagemap.asp -->
+            <map name="problems">
+                <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+              </map>
+        </div>
+    
+        <div class="catalog">
+            <section class="product">
+                <div class="product__info">
+                  <div class="container_catalog">
+                    <h1 class="product__title">Популярное</h1>
+                  </div>
+                </div>
+                <div class="cards">
+                  <div class="card">
+                    <div class="card__top">
+                      <a href="#" class="card__image">
+                        <img
+                          src="files/алфавит/pic-1.png"
+                          alt="АлфаВит Косметик, таблетки 60 шт БАД"
+                        />
+                      </a>
+                      <div class="card__label">-10%</div>
+                    </div>
+                    <div class="card__bottom">
+                      <div class="card__prices">
+                        <div class="card__price card__price--discount">576</div>
+                        <div class="card__price card__price--common">640</div>
+                      </div>
+                      <a href="#" class="card__title">
+                        АлфаВит Косметик, таблетки 60 шт БАД
+                      </a>
+                      <button class="card__add">В корзину</button>
+                    </div>
+                  </div>
+                  
+                    <div class="card">
+                      <div class="card__top">
+                        <a href="#" class="card__image">
+                          <img
+                            src="files/витамины а е/pic-1.png"
+                            alt="Витамины А и Е капс 20 шт"
+                          />
+                        </a>
+                        <div class="card__label">-5%</div>
+                      </div>
+                      <div class="card__bottom">
+                        <div class="card__prices">
+                          <div class="card__price card__price--discount">99.75</div>
+                          <div class="card__price card__price--common">105</div>
+                        </div>
+                        <a href="#" class="card__title">
+                          Витамины А и Е капс 20 шт
+                        </a>
+                        <button class="card__add">В корзину</button>
+                      </div>
+                    </div>
+                    <div class="cards">
+                      <div class="card">
+                        <div class="card__top">
+                          <a href="#" class="card__image">
+                            <img
+                              src="files/витамины для кожи/pic-1.png"
+                              alt="Витамины для кожи"
+                            />
+                          </a>
+                          <div class="card__label">-5%</div>
+                        </div>
+                        <div class="card__bottom">
+                          <div class="card__prices">
+                            <div class="card__price card__price--discount">813.2</div>
+                            <div class="card__price card__price--common">856</div>
+                          </div>
+                          <a href="#" class="card__title">
+                            Витамины и минералы для волос, кожи, ногтей
+                          </a>
+                          <button class="card__add">В корзину</button>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                  
+
+                  
+              </section>
+              <button class="cart" id="cart">
+                <img class="cart__image" src="pics/shopping-cart.svg" alt="Cart" srcset="" />
+                <div class="cart__num" id="cart_num">0</div>
+              </button>
+          
+              <div class="popup">
+                <div class="popup__container" id="popup_container">
+                  <div class="popup__item">
+                    <h1 class="popup__title">Ваша корзина</h1>
+                  </div>
+                  <div class="popup__item" id="popup_product_list">
+                    <div class="popup__product">
+                      <div class="popup__product-wrap">
+                        <img
+                          src="./images/iphone-14-pro-max-gold.png"
+                          alt="Apple IPhone 14 Pro Max 256Gb"
+                          class="popup__product-image"
+                        />
+                        <h2 class="popup__product-title">
+                          Смартфон Apple IPhone 14 Pro Max 256Gb, золотой
+                        </h2>
+                      </div>
+                      <div class="popup__product-wrap">
+                        <div class="popup__product-price">135000</div>
+                        <button class="popup__product-delete">&#10006;</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup__item">
+                    <div class="popup__cost">
+                      <h2 class="popup__cost-title">Итого</h2>
+                      <output class="popup__cost-value" id="popup_cost">0</output>
+                    </div>
+                    <div class="popup__cost">
+                      <h2 class="popup__cost-title">Скидка</h2>
+                      <output class="popup__cost-value" id="popup_discount">0</output>
+                    </div>
+                    <div class="popup__cost">
+                      <h2 class="popup__cost-title">Итого со скидкой</h2>
+                      <output class="popup__cost-value" id="popup_cost_discount"
+                        >0</output
+                      >
+                    </div>
+                    <div class="finish">
+                      <button class="finish">Оформить заказ</button>
+                    </div>
+                  </div>
+                  <button class="popup__close" id="popup_close">&#10006;</button>
+                </div>
+              </div>
+              <script src="scripts/main.js"></script> 
+
+
+        <div class="catalog">
+            <h2 class="catalog__title">Акции</h2>
+    
+            <div class="catalog-list">
+                <ul class = "catalog__list">
+                    <li class="catalog__item">
+                        <article class="product">
+                            <img src="/pics/61792.jpg" alt="" class="product_image">
+                            <p class="product__price">000 <span class="currency">₽</span></p>
+                            <h3 class="product__title">
+                                <button class="product__detail">Лекарство</button>
+                            </h3>
+                        </article>
+                    </li>
+                    <li class="catalog__item">
+                        <article class="product">
+                            <img src="/pics/61792.jpg" alt="" class="product_image">
+                            <p class="product__price">000 <span class="currency">₽</span></p>
+                            <h3 class="product__title">
+                                <button class="product__detail">Лекарство</button>
+                            </h3>
+                        </article>
+                    </li>
+                    <li class="catalog__item">
+                        <article class="product">
+                            <img src="/pics/61792.jpg" alt="" class="product_image">
+                            <p class="product__price">000 <span class="currency">₽</span></p>
+                            <h3 class="product__title">
+                                <button class="product__detail">Лекарство</button>
+                            </h3>
+                        </article>
+                    </li>
+                    <li class="catalog__item">
+                        <article class="product">
+                            <img src="/pics/61792.jpg" alt="" class="product_image">
+                            <p class="product__price">000 <span class="currency">₽</span></p>
+                            <h3 class="product__title">
+                                <button class="product__detail">Лекарство</button>
+                            </h3>
+                        </article>
+                    </li>
+                    <li class="catalog__item">
+                        <article class="product">
+                            <img src="/pics/61792.jpg" alt="" class="product_image">
+                            <p class="product__price">000 <span class="currency">₽</span></p>
+                            <h3 class="product__title">
+                                <button class="product__detail">Лекарство</button>
+                            </h3>
+                        </article>
+                    </li>
+                    <li class="catalog__item">
+                        <article class="product">
+                            <img src="/pics/61792.jpg" alt="" class="product_image">
+                            <p class="product__price">000 <span class="currency">₽</span></p>
+                            <h3 class="product__title">
+                                <button class="product__detail">Лекарство</button>
+                            </h3>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+
+    <div class="section-footer">
+        <div class="container">
+          <div class="content-footer">
+            <div class="content__footer_catalog">
+              <p class="footer__catalog_name">Большой ассортимент</p>
+              <div class="footer__catalog_content">
+                <li class="footer__list"><a href="search.html" class="catalog__content_footer">Гигиена</a></li>
+                <li class="footer__list"><a href="search.html" class="catalog__content_footer">Биологически активные добавки</a></li>
+                <li class="footer__list"><a href="search.html" class="catalog__content_footer">Лекарственные средства</a></li>
+                <li class="footer__list"><a href="search.html" class="catalog__content_footer">Мама и малыш</a></li>
+                <li class="footer__list"><a href="search.html" class="catalog__content_footer">Лечебная косметика</a></li>
+                <li class="footer__list"><a href="search.html" class="catalog__content_footer">Медицинская техника</a></li>
+              </div>
+            </div>
+            <div class="content__footer_contacts">
+              <p class="number__name">Круглосуточно на связи</p>
+              <p class="number">+7 (999) 999-99-99</p>
+              <p class="social__media_name">Следите за нами</p>
+              <a href="#" class="telegram__href"><img src="pics/telegram 1.svg" alt="telegram" class="telegram__logo"></a>
+              <a href="#" class="vk__href"><img src="pics/vk-logo-of-social-network 1.svg" alt="vk" class="vk__logo"></a>
+              <div class="discription__letter_c">
+                <img src="pics/letter-c 1.svg" alt="c" class="letter__c">
+                <p class = "description__letter">2023 Ваша аптека</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+</body>
+</html>
