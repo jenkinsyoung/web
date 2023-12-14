@@ -1,0 +1,160 @@
+.section-footer{
+    position: relative;
+    background: rgba(70, 99, 8, 0.78);
+    width: 100%;
+    height: 354px;
+    flex-shrink: 0;
+}
+
+.content__footer_catalog{
+    position: relative;
+    width: 370px;
+    margin-left: 80px;
+    padding-top: 33px;
+    float: left;
+}
+
+.footer__catalog_name{
+    position: relative;
+    margin: 0;
+    padding-bottom: 15px;
+    color: #ECECEA;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.catalog__content_footer{
+    text-decoration: none;
+    color: #ECECEA;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer__list{
+    list-style-type: none;
+}
+
+.content__footer_contacts{
+    position: relative;
+    float: left;
+    width:360px;
+    padding-top: 33px;
+    margin-left: 273px;
+}
+.number__name{
+    margin:0px;
+    color: #E9E9E7;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.number{
+    margin:0px;
+    padding-top: 15px;
+    color: #E9E9E7;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.social__media_name{
+    margin:0px;
+    padding-top: 44px;
+    color: #E9E9E7;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.telegram__logo{
+    padding-top: 9px;
+}
+.vk__logo{
+    padding-top: 9px;
+    padding-left: 28px;
+}
+.description__letter{
+    position: relative;
+    margin:0px;
+    padding-top: 48px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2px;
+}
+.letter__c{
+    position: inherit;
+    float: left;
+    padding-top: 38px;
+    margin-right: 13px;
+}
+
+@media screen and (max-width: 1140px){
+    .content__footer_contacts{
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 1070px){
+    .content__footer_contacts{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 960px){
+    .section-footer{
+        height: 585px;
+    }
+    .content__footer_catalog{
+        float: none;
+    }
+    .content__footer_contacts{
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width: 540px){
+    .content__footer_catalog{
+        margin-left: 40px;
+    }
+    .content__footer_contacts{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 470px){
+    .content__footer_catalog{
+        margin-left: 10px;
+    }
+    .content__footer_contacts{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 415px){
+    .section-footer{
+        height: 540px;
+    }
+    .content__footer_catalog{
+        margin-left: 5px;
+    }
+    .content__footer_contacts{
+        margin-left: 5px;
+    }
+    .catalog__content_footer{
+        font-size: 18px;
+    }
+    .number{
+        font-size: 22px;
+    }
+    .number__name{
+        font-size: 22px;
+    }
+    .social__media_name{
+        font-size: 22px;
+    }
+    .footer__catalog_name{
+        font-size: 22px;
+    }
+}

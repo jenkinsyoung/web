@@ -1,0 +1,10 @@
+@import 'normalize.css';
+@import 'fonts.css';
+@import 'default.css';
+@import 'header.css';
+@import 'section-main.css';
+@import 'section-footer.css';
+@import 'main_catalog.css';
+@import 'shopping_basket.css';
+@import 'personal_account.css';
+@import 'main.css'
